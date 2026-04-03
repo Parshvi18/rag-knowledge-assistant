@@ -2,7 +2,7 @@
 
 import os
 from langchain_community.vectorstores import FAISS
-from embeddings import get_embeddings 
+from src.embeddings import get_embeddings
 from config import FAISS_INDEX_PATH
 
 def build_vectorstore(chunks):

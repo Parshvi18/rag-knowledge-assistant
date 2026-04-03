@@ -1,1 +1,2 @@
-This is a test document for RAG.
+ 
+Artificial Intelligence is transforming industries. Machine learning helps computers learn from data. Python is widely used for AI development. Neural networks are inspired by the human brain.
