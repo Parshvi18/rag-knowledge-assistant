@@ -38,7 +38,7 @@ if uploaded_file:
         st.session_state.chain = build_rag_chain(vectorstore)
         st.session_state.doc_name = uploaded_file.name
 
-    st.success(f"✅ Ready! Indexed {len(chunks)} chunks from **{uploaded_file.name}**")
+    st.success(f"Ready! Indexed {len(chunks)} chunks from **{uploaded_file.name}**")
 
 # --- Q&A section ---
 if "chain" in st.session_state:
@@ -60,4 +60,4 @@ if "chain" in st.session_state:
         st.markdown("### Sources")
         st.text(format_sources(sources))
 else:
-    st.info("👆 Upload a document to get started.")
+    st.info(" Upload a document to get started.")
